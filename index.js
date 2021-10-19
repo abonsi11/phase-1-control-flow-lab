@@ -7,11 +7,12 @@ function scuberGreetingForFeet(feet){
   }
   else {
     return 'No can do.'
-  };
+  }
+}
   
 
 function ternaryCheckCity(city){
-  return city === "NYC"? "Ok, sounds good." :"No go";
+  return city === "NYC"? "Ok, sounds good." : "No go.";
 }
 
 
@@ -21,7 +22,7 @@ function ternaryCheckCity(city){
 function switchOnCharmFromTip(charm){
   switch(charm){
     case 'generous':
-      return 'Thank you so much'
+      return 'Thank you so much.'
   }
   
-}}
+}
